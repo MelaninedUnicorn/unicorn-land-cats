@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/unicorn-land-cats/static/css/main.fb821f78.chunk.css",
+    "main.js": "/unicorn-land-cats/static/js/main.42e4ee22.chunk.js",
+    "main.js.map": "/unicorn-land-cats/static/js/main.42e4ee22.chunk.js.map",
+    "runtime-main.js": "/unicorn-land-cats/static/js/runtime-main.c8bbde17.js",
+    "runtime-main.js.map": "/unicorn-land-cats/static/js/runtime-main.c8bbde17.js.map",
+    "static/js/2.84253bb0.chunk.js": "/unicorn-land-cats/static/js/2.84253bb0.chunk.js",
+    "static/js/2.84253bb0.chunk.js.map": "/unicorn-land-cats/static/js/2.84253bb0.chunk.js.map",
+    "index.html": "/unicorn-land-cats/index.html",
+    "precache-manifest.f0a922c803dd419bdbef25426cfb4218.js": "/unicorn-land-cats/precache-manifest.f0a922c803dd419bdbef25426cfb4218.js",
+    "service-worker.js": "/unicorn-land-cats/service-worker.js",
+    "static/css/main.fb821f78.chunk.css.map": "/unicorn-land-cats/static/css/main.fb821f78.chunk.css.map",
+    "static/js/2.84253bb0.chunk.js.LICENSE": "/unicorn-land-cats/static/js/2.84253bb0.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8bbde17.js",
+    "static/js/2.84253bb0.chunk.js",
+    "static/css/main.fb821f78.chunk.css",
+    "static/js/main.42e4ee22.chunk.js"
+  ]
+}
