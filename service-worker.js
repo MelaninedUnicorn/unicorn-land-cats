@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/unicorn-land-cats/precache-manifest.f0a922c803dd419bdbef25426cfb4218.js"
+  "/unicorn-land-cats/precache-manifest.47c093966c41b77ad71996db74f67373.js"
 );
 
 self.addEventListener('message', (event) => {
