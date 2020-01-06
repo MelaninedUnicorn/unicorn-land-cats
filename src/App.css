@@ -39,6 +39,16 @@
 
 h1 {
   font-family: 'Cookie', cursive;
-  font-size: 72px;
-  color: #FFB2B1;
+  font-size: 62px;
+  color: white;
+}
+
+.header {
+background-color: rgba(245, 103, 100, 0.514);
+}
+
+h2 {
+  font-family: 'Cookie', cursive;
+  font-size: 45px;
+  color: white;
 }
