@@ -10,7 +10,8 @@ class App extends Component {
     super();
     this.state = {
       unicorns: [],
-      searchField: ""
+      searchField: "",
+       
     };
 
    
@@ -23,16 +24,18 @@ class App extends Component {
   }
   // the arrow function allows us to avoid having to call bind since it will reference the context from where it was called.
   handleChange = (e) => {
+
     this.setState({ searchField: e.target.value });
+
   }
   render() {
-    const { unicorns, searchField } = this.state;
+    const { unicorns, searchField  } = this.state;
     const filteredUnicorns = unicorns.filter(unicorn =>
       unicorn.name.toLowerCase().includes(searchField.toLowerCase())
     );
     return (
       <div className="App">
-        <h1 className='header'>UnicornLand Cats</h1>
+        <h1 className='header'>{searchField == '' ? 'UnicornLand Cats' : searchField}</h1>
         <SearchBox placeholder="Search a UnicornLand cat"  handleChange={this.handleChange}/>
         <CardList unicorns={filteredUnicorns} />
       </div>
